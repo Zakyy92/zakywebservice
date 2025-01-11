@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Admin Dashboard untuk mengelola data user, sewa, lapangan, pembayaran, dan komentar.">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard">
+        <h1>Admin Dashboard</h1>
+
+        <!-- Data User -->
+        <section class="section" aria-label="Data User">
+            <h2>Data User</h2>
+
+            <table id="userTable">
+                <thead>
+                    <tr>
+                        <th>Nama</th>
+                        <th>Email</th>
+                        <th>Role</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+
+        <!-- Data Sewa -->
+        <section class="section" aria-label="Data Sewa">
+            <h2>Data Sewa</h2>
+            
+            <table id="sewaTable">
+                <thead>
+                    <tr>
+                        <th>Nama</th>
+                        <th>Lapangan</th>
+                        <th>Tanggal</th>
+                        <th>Durasi (jam)</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+
+        <!-- Data Lapangan -->
+        <section class="section" aria-label="Data Lapangan">
+            <h2>Data Lapangan</h2>
+            
+            <table id="lapanganTable">
+                <thead>
+                    <tr>
+                        <th>Lokasi Lapangan</th>
+                        <th>Harga per Jam</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+
+        <!-- Data Pembayaran -->
+        <section class="section" aria-label="Data Pembayaran">
+            <h2>Data Pembayaran</h2>
+            
+            <table id="tablePembayaran">
+                <thead>
+                    <tr>
+                        <th>Total Pembayaran</th>
+                        <th>Metode Pembayaran</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+
+        <!-- Data Komentar -->
+        <section class="section" aria-label="Data Komentar">
+            <h2>Komentar</h2>
+            
+            <table id="komentarTable">
+                <thead>
+                    <tr>
+                        <th>Komentar</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
